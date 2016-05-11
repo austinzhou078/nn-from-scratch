@@ -17,6 +17,7 @@ def generate_data():
     X, y = datasets.make_moons(200, noise=0.20)
     return X, y
 
+#test
 
 def visualize(X, y, model):
     # plt.scatter(X[:, 0], X[:, 1], s=40, c=y, cmap=plt.cm.Spectral)
